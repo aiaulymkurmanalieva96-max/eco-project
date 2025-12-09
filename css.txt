@@ -1,0 +1,112 @@
+/* Жалпы және қаріп параметрлері */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Ашық жасыл фон */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Бас тақырып (Header) стилі */
+header {
+    background-color: #2e7d32; /* Қою жасыл (орман түсі) */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+
+/* Негізгі мазмұн (Main) стилі */
+main {
+    padding: 30px 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+/* Кіріспе бөлімі */
+.intro {
+    background-color: #c8e6c9;
+    padding: 20px;
+    border-left: 6px solid #4CAF50;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+/* Бағыттар блоктары (Destination) стилі */
+.destination {
+    background-color: white;
+    margin-bottom: 35px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.destination:hover {
+    transform: translateY(-5px); /* Тышқанды апарғанда көтерілу эффектісі */
+}
+
+.destination h3 {
+    color: #1b5e20; /* Өте қою жасыл */
+    border-bottom: 1px dashed #a5d6a7;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.content ul {
+    list-style: disc;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+/* Сурет орнына арналған плейсхолдер стилі */
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-style: italic;
+    overflow: hidden; /* Суреттерді қоссаңыз, мұны алып тастаңыз */
+}
+
+/* Түймелер (Buttons) стилі */
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+}
+
+.btn.secondary {
+    background-color: #81c784; /* Басқа түсті түйме */
+}
+
+/* Аяқбет (Footer) стилі */
+footer {
+    background-color: #1b5e20;
+    color: #b9f6ca;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
